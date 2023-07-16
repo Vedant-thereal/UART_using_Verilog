@@ -1,4 +1,5 @@
-module jdoodle;
+`include "uart_tx.v"
+module uart_tx_tb();
  reg [7:0]a;
  reg st=1'b1;
  reg clk=1'b0;
